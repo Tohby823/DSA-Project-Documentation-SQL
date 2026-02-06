@@ -4,7 +4,7 @@ SQL-based analysis of inventory, customer, and shipping data for Kultra Mega Sto
 
 ## Kultra Mega Stores SQL Case Study | DSA Capstone Project
 
-This project is part of the Data Analysis Capstone from the **DSA Program**, involving the use of SQL to analyze historical order and shipping data from **Kultra Mega Stores (KMS)**. The objective is to uncover patterns in sales performance, customer value, shipping efficiency, and regional trends to support business decisions for KMS’s Abuja division.
+This project is part of the Data Analysis Capstone from the **DSA Program**, involving the use of SQL to analyze historical order and shipping data from **Kultra Mega Stores (KMS)**. The objective is to uncover patterns in sales performance, customer value, shipping efficiency, and regional trends to support business decisions for one of KMS's division.
 
 --- 
 
@@ -12,7 +12,9 @@ This project is part of the Data Analysis Capstone from the **DSA Program**, inv
 
 ### Company Background
 
-Kultra Mega Stores, headquartered in Lagos, provides office supplies and furniture to consumers, small businesses, and large corporations across Nigeria. The Abuja branch requires actionable insights to increase revenue, improve customer retention, and optimize shipping.
+Kultra Mega Stores is a fictional retail company used for this DSA capstone case study. 
+The dataset (2009–2012) uses dataset-defined region names (e.g., Atlantic, Quebec, Prairie, Ontario, Yukon).
+All geographic names are representative and do not correspond to real branch locations.
 
 ---
 
