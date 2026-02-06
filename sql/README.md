@@ -1,1 +1,1 @@
-SQL scripts for Kultra Mega Stores capstone analysis
+### SQL SCRIPS FOR KULTRA MEGA STORES CAPSTONE ANALYSIS
