@@ -202,26 +202,115 @@ group by Province, product_sub_category
 ```
 
 
-### Analysis
+### Analysis and Visual Evidence
+---
+### Q1. Which product category had the highest sales?
 
+**SQL File:** `sql/01_sales_by_category.sql`
 
+![Total Sales by Category](images/01_sales_by_category.png)
 
-![SQL Queries.png](https://github.com/user-attachments/assets/2d5fb221-0d07-4cd7-a645-f4670de619a6)
+**Insight:** Technology generated the highest overall revenue, indicating strong demand and potential focus for inventory expansion.
 
+---
+### Q2. What are the Top 3 and Bottom 3 regions by sales?
 
+**SQL File:** `sql/02_region_rankings.sql`
 
+![Top and Bottom Regions](images/02_region_rankings.png)
 
+**Insight:** Sales are heavily concentrated in the top-performing regions, while the bottom regions present potential market development opportunities.
 
-![Bar chart showing the bottom 3 regions based on sales.png](https://github.com/user-attachments/assets/456fa235-a945-47e3-b79c-8f78138e4767)
+---
 
+### Q3. What were the total sales of appliances in Ontario?
 
+**SQL File:** `sql/03_appliances_ontario.sql`
 
+![Appliance Sales Ontario](images/03_appliances_ontario.png)
 
-![Bar chart showing the top 3 regions based on sales.png](https://github.com/user-attachments/assets/802a2e0e-5881-40e2-8be2-a0b6e452f064)
+**Insight:** Appliance sales in Ontario represent a significant portion of regional revenue, highlighting category-specific regional strength.
 
+---
 
+### Q4. How can revenue from the bottom 10 customers be improved?
 
-![Most Valuable Customers and What They Buy.png](https://github.com/user-attachments/assets/861da790-4368-4a8d-a24a-56dc9cac2961)
+**SQL File:** `sql/04_bottom10_analysis.sql`
+
+![Bottom 10 Customers](images/04_bottom_10_customers.png)
+
+**Insight:** Bottom-tier customers show low purchase frequency and order value, suggesting opportunities for targeted promotions and upselling.
+
+---
+
+### Q5. Which shipping method incurred the highest cost?
+
+**SQL File:** `sql/05_shipping_cost_analysis.sql`
+
+![Shipping Costs](images/05_shipping_costs.png)
+
+**Insight:** Delivery Truck generated the highest shipping cost, reflecting a trade-off between speed and operational expense.
+
+---
+
+### Q6. Who are the most valuable customers and what do they buy?
+
+**SQL File:** `sql/06_most_valuable_customers.sql`
+
+![Most Valuable Customers](images/06_most_valuable_customers.png)
+
+**Insight:** High-value customers consistently purchase Technology, Office Supplies and Furniture, indicating profitable cross-category buying behavior.
+
+---
+
+### Q7. Which small business customer had the highest sales?
+
+**SQL File:** `sql/07_top_small_business.sql`
+
+![Top Small Business](images/07_top_small_business.png)
+
+**Insight:** The leading small business customer contributes disproportionately to segment revenue.
+
+---
+
+### Q8. Which corporate customer placed the most orders?
+
+**SQL File:** `sql/08_top_corporate_orders.sql`
+
+![Corporate Orders](images/08_corporate_orders.png)
+
+**Insight:** Order frequency among top corporate customers suggests strong recurring demand relationships.
+
+---
+
+### Q9. Which consumer customer was the most profitable?
+
+**SQL File:** `sql/09_most_profitable_consumer.sql`
+
+![Most Profitable Consumer](images/09_profitable_consumer.png)
+
+**Insight:** Profit concentration among a small number of consumer customers indicates margin optimization opportunities.
+
+---
+
+### Q10. Which customers returned items?
+
+**SQL File:** `sql/10_returns_analysis.sql`
+
+![Returns by Segment](images/10_returns_by_segment.png)
+
+**Insight:** Returns were more frequent within specific customer segments, signaling potential product or service satisfaction issues.
+
+---
+
+### Q11. Was shipping cost aligned with order priority?
+
+**SQL File:** `sql/11_shipping_priority_analysis.sql`
+
+![Shipping vs Priority](images/11_shipping_priority.png)
+
+**Insight:** High-priority orders frequently used faster shipping methods, indicating largely appropriate cost allocation.
+
 
 
 
