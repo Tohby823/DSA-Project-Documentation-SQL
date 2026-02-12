@@ -8,6 +8,5 @@ SELECT
   SUM(Shipping_Cost) AS Total_Shipping_Cost,
   AVG(Shipping_Cost) AS Avg_Shipping_Cost
 FROM [KMS Order Table]
-WHERE Ship_Mode IN ('Delivery Truck', 'Express Air')
 GROUP BY Ship_Mode, Order_Priority
 ORDER BY Total_Shipping_Cost desc
