@@ -206,7 +206,7 @@ group by Province, product_sub_category
 ---
 ### Q1. Which product category had the highest sales?
 
-**SQL File:** `sql/01_sales_by_category.sql`
+**SQL File:** [01_sales_by_category.sql](sql/01_sales_by_category.sql)
 
 ![Total Sales by Category](images/01_sales_by_category.png)
 
