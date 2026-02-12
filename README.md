@@ -208,6 +208,9 @@ group by Province, product_sub_category
 
 **SQL File:** [View SQL Script](sql/01_sales_by_category.sql)
 
+
+<img width="1697" height="993" alt="01_sales_by_category png" src="https://github.com/user-attachments/assets/cf5fb3b3-9b07-4be9-b311-0aa4d013a79e" />
+
 ![Total Sales by Category](images/01_sales_by_category.png)
 
 **Insight:** "Our revenue is heavily anchored in Technology, indicating that high-unit-value electronics are the primary engine of our growth."
