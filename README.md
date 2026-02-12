@@ -206,7 +206,7 @@ group by Province, product_sub_category
 ---
 ### Q1. Which product category had the highest sales?
 
-**SQL File:** [01_sales_by_category.sql](sql/01_sales_by_category.sql)
+**SQL File:** [View SQL Script](sql/01_sales_by_category.sql)
 
 ![Total Sales by Category](images/01_sales_by_category.png)
 
@@ -215,7 +215,7 @@ group by Province, product_sub_category
 ---
 ### Q2. What are the Top 3 and Bottom 3 regions by sales?
 
-**SQL File:** `sql/02_region_rankings.sql`
+**SQL File:** [View SQL Script](sql/02_region_rankings.sql)
 
 ![Top and Bottom Regions](images/02_region_rankings.png)
 
@@ -225,7 +225,7 @@ group by Province, product_sub_category
 
 ### Q3. What were the total sales of appliances in Ontario?
 
-**SQL File:** `sql/03_appliances_ontario.sql`
+**SQL File:**[View SQL Script](sql/03_appliances_ontario.sql)
 
 ![Appliance Sales Ontario](images/03_appliances_ontario.png)
 
@@ -235,7 +235,7 @@ group by Province, product_sub_category
 
 ### Q4. How can revenue from the bottom 10 customers be improved?
 
-**SQL File:** `sql/04_bottom10_analysis.sql`
+**SQL File:** [View SQL Script](sql/04_bottom10_analysis.sql)
 
 ![Bottom 10 Customers](images/04_bottom_10_customers.png)
 
@@ -245,7 +245,7 @@ group by Province, product_sub_category
 
 ### Q5. Which shipping method incurred the highest cost?
 
-**SQL File:** `sql/05_shipping_cost_analysis.sql`
+**SQL File:** [View SQL Script](sql/05_shipping_cost_analysis.sql)
 
 ![Shipping Costs](images/05_shipping_costs.png)
 
@@ -255,7 +255,7 @@ group by Province, product_sub_category
 
 ### Q6. Who are the most valuable customers and what do they buy?
 
-**SQL File:** `sql/06_most_valuable_customers.sql`
+**SQL File:** [View SQL Script](sql/06_most_valuable_customers.sql)
 
 ![Most Valuable Customers](images/06_most_valuable_customers.png)
 
@@ -265,7 +265,7 @@ group by Province, product_sub_category
 
 ### Q7. Which small business customer had the highest sales?
 
-**SQL File:** `sql/07_top_small_business.sql`
+**SQL File:** [View SQL Script](sql/07_top_small_business.sql)
 
 ![Top Small Business](images/07_top_small_business.png)
 
@@ -275,7 +275,7 @@ group by Province, product_sub_category
 
 ### Q8. Which corporate customer placed the most orders?
 
-**SQL File:** `sql/08_top_corporate_orders.sql`
+**SQL File:** [View SQL Script](sql/08_top_corporate_orders.sql)
 
 ![Corporate Orders](images/08_corporate_orders.png)
 
@@ -285,7 +285,7 @@ group by Province, product_sub_category
 
 ### Q9. Which consumer customer was the most profitable?
 
-**SQL File:** `sql/09_most_profitable_consumer.sql`
+**SQL File:** [View SQL Script](sql/09_most_profitable_consumer.sql)
 
 ![Most Profitable Consumer](images/09_profitable_consumer.png)
 
@@ -295,7 +295,7 @@ group by Province, product_sub_category
 
 ### Q10. Which customers returned items?
 
-**SQL File:** `sql/10_returns_analysis.sql`
+**SQL File:** [View SQL Script](sql/10_returns_analysis.sql)
 
 ![Returns by Segment](images/10_returns_by_segment.png)
 
@@ -305,7 +305,7 @@ group by Province, product_sub_category
 
 ### Q11. Was shipping cost aligned with order priority?
 
-**SQL File:** `sql/11_shipping_priority_analysis.sql`
+**SQL File:** [View SQL Script](sql/11_shipping_priority_analysis.sql)
 
 ![Shipping vs Priority](images/11_shipping_priority.png)
 
