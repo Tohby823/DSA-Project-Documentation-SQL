@@ -210,7 +210,7 @@ group by Province, product_sub_category
 
 ![Total Sales by Category](images/01_sales_by_category.png)
 
-**Insight:** Technology generated the highest overall revenue, indicating strong demand and potential focus for inventory expansion.
+**Insight:** "Our revenue is heavily anchored in Technology, indicating that high-unit-value electronics are the primary engine of our growth."
 
 ---
 ### Q2. What are the Top 3 and Bottom 3 regions by sales?
@@ -219,7 +219,7 @@ group by Province, product_sub_category
 
 ![Top and Bottom Regions](images/02_region_rankings.png)
 
-**Insight:** Sales are heavily concentrated in the top-performing regions, while the bottom regions present potential market development opportunities.
+**Insight:** "While the **West** leads our national expansion, the stagnant growth in the Atlantic region suggests a need for localized marketing or supply chain adjustments."
 
 ---
 
@@ -229,7 +229,7 @@ group by Province, product_sub_category
 
 ![Appliance Sales Ontario](images/03_appliances_ontario.png)
 
-**Insight:** Appliance sales in Ontario represent a significant portion of regional revenue, highlighting category-specific regional strength.
+**Insight:** "Ontario's appliance sales demonstrate a steady 'core' revenue stream, making it a low-risk benchmark for testing new household product lines."
 
 ---
 
@@ -249,7 +249,7 @@ group by Province, product_sub_category
 
 ![Shipping Costs](images/05_shipping_costs.png)
 
-**Insight:** Delivery Truck generated the highest shipping cost, reflecting a trade-off between speed and operational expense.
+**Insight:** "The heavy expenditure on Regular Air suggests that we are over-relying on expensive logistics for non-urgent deliveries, which is eating into our net margins."
 
 ---
 
@@ -259,7 +259,7 @@ group by Province, product_sub_category
 
 ![Most Valuable Customers](images/06_most_valuable_customers.png)
 
-**Insight:** High-value customers consistently purchase Technology, Office Supplies and Furniture, indicating profitable cross-category buying behavior.
+**Insight:** "Our 'Champions' (like Darren Budd) are infrastructure-focused, driving profit through high-margin Technology and Furniture rather than small office consumables."
 
 ---
 
@@ -269,7 +269,7 @@ group by Province, product_sub_category
 
 ![Top Small Business](images/07_top_small_business.png)
 
-**Insight:** The leading small business customer contributes disproportionately to segment revenue.
+**Insight:** "The high spending of Dennis Kane proves that 'Small Business' accounts can rival Corporate budgets when they transition from consumables to office infrastructure."
 
 ---
 
@@ -279,7 +279,7 @@ group by Province, product_sub_category
 
 ![Corporate Orders](images/08_corporate_orders.png)
 
-**Insight:** Order frequency among top corporate customers suggests strong recurring demand relationships.
+**Insight:** "Our most loyal Corporate partner isn't just a big spender; they are a high-frequency buyer, providing the company with predictable, recurring monthly revenue."
 
 ---
 
@@ -289,7 +289,7 @@ group by Province, product_sub_category
 
 ![Most Profitable Consumer](images/09_profitable_consumer.png)
 
-**Insight:** Profit concentration among a small number of consumer customers indicates margin optimization opportunities.
+**Insight:** "The most profitable consumer demonstrates that 'healthy' accounts are defined by low shipping burdens and high-margin product choices, not just high sales volume."
 
 ---
 
@@ -299,7 +299,7 @@ group by Province, product_sub_category
 
 ![Returns by Segment](images/10_returns_by_segment.png)
 
-**Insight:** Returns were more frequent within specific customer segments, signaling potential product or service satisfaction issues.
+**Insight:** "The Consumer segment accounts for a disproportionate 42% of returns, suggesting a clear need for better online product descriptions to reduce 'buyer's remorse' costs."
 
 ---
 
@@ -309,7 +309,7 @@ group by Province, product_sub_category
 
 ![Shipping vs Priority](images/11_shipping_priority.png)
 
-**Insight:** High-priority orders frequently used faster shipping methods, indicating largely appropriate cost allocation.
+**Insight:** "We have a significant 'urgency gap' where low-priority orders are frequently shipped via Express Air, indicating that our logistics choices aren't currently aligned with customer needs."
 
 
 
