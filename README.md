@@ -6,9 +6,18 @@ SQL-based analysis of inventory, customer, and shipping data for Kultra Mega Sto
 
 This project is part of the Data Analysis Capstone from the **DSA Program**, involving the use of SQL to analyze historical order and shipping data from **Kultra Mega Stores (KMS)**. The objective is to uncover patterns in sales performance, customer value, shipping efficiency, and regional trends to support business decisions for one of KMS's division.
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Comapany Background](#company-background)
+3. [Dataset and Tools](dataset-and-tools)
+4. 
+5. 
+
 --- 
 
 ### Project Overview
+
+This project analyzes a retail dataset (2009-2012) to extract actionable insights on sales performance, customer value, and shipping efficiency using SQL.
 
 ### Company Background
 
@@ -18,16 +27,14 @@ All geographic names are representative and do not correspond to real branch loc
 
 ---
 
-### Data Source
+## Dataset & Tools
 
+**Dataset**
 - **Source**: Excel file provided via DSA Capstone Project Files
 - **Time Frame**: 2009–2012  
 - **Data Categories**: Orders, Products, Customers, Shipping Details  
 
----
-
-### Tools Used
-
+**Tools Used**
 - **SQL Server** [Download Here](https://learn.microsoft.com/en-us/ssms/install/install)
 
   – For data querying and insight extraction
