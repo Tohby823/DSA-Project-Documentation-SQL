@@ -208,18 +208,12 @@ group by Province, product_sub_category
 
 **SQL File:** [View SQL Script](sql/01_sales_by_category.sql)
 
-<img width="1697" height="993" alt="01_sales_by_category png" src="https://github.com/user-attachments/assets/cf5fb3b3-9b07-4be9-b311-0aa4d013a79e" />
-
-![Total Sales by Category](images/01_sales_by_category.png)
-
 **Insight:** "Our revenue is heavily anchored in Technology, indicating that high-unit-value electronics are the primary engine of our growth."
 
 ---
 ### Q2. What are the Top 3 and Bottom 3 regions by sales?
 
 **SQL File:** [View SQL Script](sql/02_region_rankings.sql)
-
-![Top and Bottom Regions](images/02_region_rankings.png)
 
 **Insight:** "While the **West** leads our national expansion, the stagnant growth in the Atlantic region suggests a need for localized marketing or supply chain adjustments."
 
@@ -229,8 +223,6 @@ group by Province, product_sub_category
 
 **SQL File:**[View SQL Script](sql/03_appliances_ontario.sql)
 
-![Appliance Sales Ontario](images/03_appliances_ontario.png)
-
 **Insight:** "Ontario's appliance sales demonstrate a steady 'core' revenue stream, making it a low-risk benchmark for testing new household product lines."
 
 ---
@@ -238,8 +230,6 @@ group by Province, product_sub_category
 ### Q4. How can revenue from the bottom 10 customers be improved?
 
 **SQL File:** [View SQL Script](sql/04_bottom10_analysis.sql)
-
-![Bottom 10 Customers](images/04_bottom_10_customers.png)
 
 **Insight:** Bottom-tier customers show low purchase frequency and order value, suggesting opportunities for targeted promotions and upselling.
 
@@ -259,8 +249,6 @@ group by Province, product_sub_category
 
 **SQL File:** [View SQL Script](sql/06_most_valuable_customers.sql)
 
-![Most Valuable Customers](images/06_most_valuable_customers.png)
-
 **Insight:** "Our 'Champions' (like Darren Budd) are infrastructure-focused, driving profit through high-margin Technology and Furniture rather than small office consumables."
 
 ---
@@ -268,8 +256,6 @@ group by Province, product_sub_category
 ### Q7. Which small business customer had the highest sales?
 
 **SQL File:** [View SQL Script](sql/07_top_small_business.sql)
-
-![Top Small Business](images/07_top_small_business.png)
 
 **Insight:** "The high spending of Dennis Kane proves that 'Small Business' accounts can rival Corporate budgets when they transition from consumables to office infrastructure."
 
@@ -279,8 +265,6 @@ group by Province, product_sub_category
 
 **SQL File:** [View SQL Script](sql/08_top_corporate_orders.sql)
 
-![Corporate Orders](images/08_corporate_orders.png)
-
 **Insight:** "Our most loyal Corporate partner isn't just a big spender; they are a high-frequency buyer, providing the company with predictable, recurring monthly revenue."
 
 ---
@@ -288,8 +272,6 @@ group by Province, product_sub_category
 ### Q9. Which consumer customer was the most profitable?
 
 **SQL File:** [View SQL Script](sql/09_most_profitable_consumer.sql)
-
-![Most Profitable Consumer](images/09_profitable_consumer.png)
 
 **Insight:** "The most profitable consumer demonstrates that 'healthy' accounts are defined by low shipping burdens and high-margin product choices, not just high sales volume."
 
@@ -299,8 +281,6 @@ group by Province, product_sub_category
 
 **SQL File:** [View SQL Script](sql/10_returns_analysis.sql)
 
-![Returns by Segment](images/10_returns_by_segment.png)
-
 **Insight:** "The Consumer segment accounts for a disproportionate 42% of returns, suggesting a clear need for better online product descriptions to reduce 'buyer's remorse' costs."
 
 ---
@@ -309,11 +289,13 @@ group by Province, product_sub_category
 
 **SQL File:** [View SQL Script](sql/11_shipping_priority_analysis.sql)
 
-![Shipping vs Priority](images/11_shipping_priority.png)
-
 **Insight:** "We have a significant 'urgency gap' where low-priority orders are frequently shipped via Express Air, indicating that our logistics choices aren't currently aligned with customer needs."
 
+### Visual Images
 
+![Dashboard 1](dashboard_01.png)
+
+![Dashboard 2](dashboard_02.png)
 
 
 ### Results/Findings
