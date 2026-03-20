@@ -10,10 +10,10 @@ This project is part of the Data Analysis Capstone from the **DSA Program**, inv
 1. [Project Overview](#project-overview)
 2. [Comapany Background](#company-background)
 3. [Dataset and Tools](#dataset-and-tools)
-4. [Key Insights, Analysis & Visual Evidence](#key-insights-analysis--visual-evidence)
+4. [Key Insights and Analysis](#key-insights-and-analysis)
 5. [Visual Evidence](#visual-evidence)
-6. []()
-7. []()
+6. [Limitations](#limitations)
+7. [Recommendations](#recommendations)
 
 --- 
 
@@ -64,7 +64,7 @@ Based on this, two key issues emerge:
 - KMS may not be strategically assigning shipping methods based on order priority.
 
 
-### key Insights, Analysis and Visual Evidence
+### key Insights and Analysis
 ---
 ### Q1. Which product category had the highest sales?
 
