@@ -9,10 +9,11 @@ This project is part of the Data Analysis Capstone from the **DSA Program**, inv
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Comapany Background](#company-background)
-3. [Dataset & Tools](dataset--tools)
-4. [Key Insights, Analysis & Visual Evidence](key-insights-analysis--visual-evidence)
-5. [Visual Evidence](visual-evidence)
-6. 
+3. [Dataset and Tools](#dataset-and-tools)
+4. [Key Insights, Analysis & Visual Evidence](#key-insights-analysis--visual-evidence)
+5. [Visual Evidence](#visual-evidence)
+6. []()
+7. []()
 
 --- 
 
@@ -28,7 +29,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 ---
 
-## Dataset & Tools
+## Dataset and Tools
 
 **Dataset**
 - **Source**: Excel file provided via DSA Capstone Project Files
@@ -152,31 +153,16 @@ Based on this, two key issues emerge:
 
 **Insight:** "We have a significant 'urgency gap' where low-priority orders are frequently shipped via Express Air, indicating that our logistics choices aren't currently aligned with customer needs."
 
-### Visual Images
+### Visual Evidence
 
-![Dashboard 1]<img width="3300" height="1981" alt="dashboard_01 png" src="https://github.com/user-attachments/assets/ee1120b4-5c7e-43a5-bad6-30b64d8d7cc6" />
+Dashboard 1 <img width="3300" height="1981" alt="dashboard_01 png" src="https://github.com/user-attachments/assets/ee1120b4-5c7e-43a5-bad6-30b64d8d7cc6" />
 
-![Dashboard 2]<img width="3812" height="2637" alt="dashboard_02 png" src="https://github.com/user-attachments/assets/3afede79-a71a-4286-92dd-45f02046602f" />
+Dashboard 2 <img width="3812" height="2637" alt="dashboard_02 png" src="https://github.com/user-attachments/assets/3afede79-a71a-4286-92dd-45f02046602f" />
 
-
-
-### Results/Findings
-Results and Findings
-The analysis of the Kultra Mega Stores (KMS) dataset provided several key insights across product performance, customer value, and shipping efficiency from 2009 to 2012:
-
-- The product category with the highest total sales was identified, indicating a strong customer demand and potential focus area for future marketing and inventory management.
-- The top 3 and bottom 3 regions were ranked based on sales volume. These insights help KMS understand regional performance disparities and potential opportunities for targeted sales strategies.
-- The bottom 10 customers generated significantly lower revenue. Recommendations such as personalized promotions, loyalty programs, or product bundling can help increase engagement and sales from this segment.
-- Among all shipping methods, one incurred the highest cost. This highlights a need to balance shipping speed with profitability and possibly review logistics strategy for cost control.
-- The most valuable customers were identified, along with their preferred product categories. This helps in creating targeted campaigns and retaining top customers through tailored offers.
-- Segment-wise analysis (Consumer, Corporate, Small Business, Home Office) provided insight into buying behavior and profitability. Some customers had consistently negative profits, possibly indicating returns or excessive discounts.
-- An evaluation of shipping methods versus order priority revealed if high-cost shipping methods were justified by urgency. This informed recommendations on optimizing shipping decisions.
-- Although no explicit "returns" column existed, customers with negative profit margins were flagged as likely cases of returned items or failed transactions. Segment analysis of these customers was conducted for further insights.
+---
 
 ### Limitations
-- The dataset lacked an explicit column for returned products. Profit values were used as a proxy (negative profits) to infer returns, which may not be completely accurate.
 - The dataset only covered transactions from 2009 to 2012. More recent data could provide better relevance for current business decisions.
-- The sales and profit figures had no specified currency unit, making financial interpretation somewhat ambiguous.
 - The data did not include customer satisfaction ratings or reviews, which could have enriched customer segmentation and value analysis.
 - The shipping method efficiency was analyzed based on order priority and cost, but without actual delivery time or customer satisfaction data.
 
@@ -190,15 +176,3 @@ The analysis of the Kultra Mega Stores (KMS) dataset provided several key insigh
 ### References 
 **Dataset Source:**
 Kultra Mega Stores Case Study, obtained from the Learning Management System (LMS) of the DSA Data Analysis Program, under the Capstone Project Files.
-
-**Tools Used:**
-
-_SQL Server_ – For data querying and analysis
-
-_Microsoft Excel_ – For preliminary review, exports and visualization.
-
-
-
-
-
-
