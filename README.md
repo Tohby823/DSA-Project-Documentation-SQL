@@ -56,14 +56,14 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/01_sales_by_category.sql)
 
-**Insight:** "Our revenue is heavily anchored in Technology with a total sales of **$5,984,248.50**, indicating that high-unit-value electronics are the primary engine of our growth."
+**Insight:** The Technology category emerged as the top-performing product category, generating total sales of $5,984,248.50 and serving as a major driver of overall revenue.
 
 ---
 ### Q2. What are the Top 3 and Bottom 3 regions by sales?
 
 **SQL File:** [View SQL Script](sql/02_region_rankings.sql)
 
-**Insight:** "While the **West** leads our national expansion, the stagnant growth in the Atlantic region suggests a need for localized marketing or supply chain adjustments."
+**Insight:** Sales performance varied significantly across regions, with West ($3,597,549.41), Ontario ($3,063,212.60), and Prairie ($2,837,304.60) emerging as the top-performing regions. Conversely, Nunavut ($116,376.47), Northwest Territories ($800,847.35), and Yukon ($975,867.39) recorded the lowest sales, indicating potential areas for growth and market expansion.
 
 ---
 
@@ -71,7 +71,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:**[View SQL Script](sql/03_appliances_ontario.sql)
 
-**Insight:** "Ontario's appliance sales demonstrate a steady 'core' revenue stream, making it a low-risk benchmark for testing new household product lines."
+**Insight:** Appliance sales in Ontario totaled $202,346.84, highlighting the region’s contribution to overall revenue within this product category.
 
 ---
 
@@ -89,7 +89,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 ![Shipping Costs](images/05_shipping_costs.png)
 
-**Insight:** "The heavy expenditure on Regular Air suggests that we are over-relying on expensive logistics for non-urgent deliveries, which is eating into our net margins."
+**Insight:** Delivery Truck was the most expensive shipping method, accounting for a total cost of $51,971.94, indicating it may be a key driver of overall logistics expenses.
 
 ---
 
@@ -97,7 +97,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/06_most_valuable_customers.sql)
 
-**Insight:** "Our 'Champions' (like Darren Budd) are infrastructure-focused, driving profit through high-margin Technology and Furniture rather than small office consumables."
+**Insight:** The most valuable customers like Emily Phan are high-frequency, high-spending buyers who contribute significantly to overall revenue. Analysis shows that these customers predominantly purchase from the Technology and Office Supplies categories, highlighting these product lines as major drivers of profitability and customer retention.
 
 ---
 
@@ -105,7 +105,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/07_top_small_business.sql)
 
-**Insight:** "The high spending of Dennis Kane proves that 'Small Business' accounts can rival Corporate budgets when they transition from consumables to office infrastructure."
+**Insight:** Among small business customers, Dennis Kane generated the highest sales, contributing a total of $75,967.59, making him a key revenue contributor within that segment.
 
 ---
 
@@ -113,7 +113,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/08_top_corporate_orders.sql)
 
-**Insight:** "Our most loyal Corporate partner isn't just a big spender; they are a high-frequency buyer, providing the company with predictable, recurring monthly revenue."
+**Insight:** Roy Skaria stands out as the most loyal corporate customer, having placed a total of 773 orders, indicating a high level of engagement and repeat business.
 
 ---
 
@@ -121,7 +121,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/09_most_profitable_consumer.sql)
 
-**Insight:** "The most profitable consumer demonstrates that 'healthy' accounts are defined by low shipping burdens and high-margin product choices, not just high sales volume."
+**Insight:** Emily Phan was the most profitable customer, contributing a total profit of $37,005.04, making her the highest-value customer in the dataset.
 
 ---
 
@@ -129,7 +129,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/10_returns_analysis.sql)
 
-**Insight:** The Consumer segment accounts for a disproportionate 42% of returns, suggesting a clear need for better online product descriptions to reduce 'buyer's remorse' costs.
+**Insight:** Out of 573 total customer returns, the Corporate segment accounted for the highest share (215), while the Consumer segment had the lowest (98). Returns from the Home Office and Small Business segments stood at 139 and 121 respectively, indicating that returns were more concentrated among business-oriented customers.
 
 ---
 
