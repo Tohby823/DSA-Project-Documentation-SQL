@@ -17,11 +17,13 @@ This project is part of the Data Analysis Capstone from the **DSA Program**, inv
 
 --- 
 
-### Project Overview
+## Project Overview
 
 This project analyzes a retail dataset (2009-2012) to extract actionable insights on sales performance, customer value, and shipping efficiency using SQL.
 
-### Company Background
+---
+
+## Company Background
 
 Kultra Mega Stores is a fictional retail company used for this DSA capstone case study. 
 The dataset (2009–2012) uses dataset-defined region names (e.g., Atlantic, Quebec, Prairie, Ontario, Yukon).
@@ -48,23 +50,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 ---
 
-### Key Insights
-  
- *To increase revenue from the bottom 10 customers, I recommend implementing targeted promotions based on their previous purchase history and offering personalized discounts to re-engage them. Additionally, bundling low-interest items with popular products can increase order value. It's also important to collect feedback from these customers to understand pain points that might be limiting their spending.*
-
-Shipping
-
-After analyzing the shipping cost data across order priorities, it was observed that both Delivery Truck and Express Air were used for all priority levels, including Critical and Low. This reflects a lack of alignment between shipping method and urgency.
-
-Surprisingly, the average shipping cost for Express Air is significantly lower (6.86–8.71) compared to Delivery Truck (43.67–47.30), which is unexpected since Express Air is typically more expensive.
-
-Based on this, two key issues emerge:
-
-- There may be inconsistencies in how shipping costs were recorded.
-- KMS may not be strategically assigning shipping methods based on order priority.
-
-
-### key Insights and Analysis
+## key Insights and Analysis
 ---
 ### Q1. Which product category had the highest sales?
 
@@ -153,6 +139,8 @@ Based on this, two key issues emerge:
 
 **Insight:** "We have a significant 'urgency gap' where low-priority orders are frequently shipped via Express Air, indicating that our logistics choices aren't currently aligned with customer needs."
 
+---
+
 ### Visual Evidence
 
 Dashboard 1 <img width="3300" height="1981" alt="dashboard_01 png" src="https://github.com/user-attachments/assets/ee1120b4-5c7e-43a5-bad6-30b64d8d7cc6" />
@@ -161,12 +149,14 @@ Dashboard 2 <img width="3812" height="2637" alt="dashboard_02 png" src="https://
 
 ---
 
-### Limitations
+## Limitations
 - The dataset only covered transactions from 2009 to 2012. More recent data could provide better relevance for current business decisions.
 - The data did not include customer satisfaction ratings or reviews, which could have enriched customer segmentation and value analysis.
 - The shipping method efficiency was analyzed based on order priority and cost, but without actual delivery time or customer satisfaction data.
 
-### Recomendations
+---
+
+## Recomendations
 - Focus marketing and inventory on Technology products, especially Office Machines, as they drive the highest sales.
 - Target underperforming regions like West and Yukon with localized promotions and logistics improvements.
 - Re-engage low-spending customers through personalized offers, bundling, and feedback collection.
