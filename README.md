@@ -9,9 +9,10 @@ This project is part of the Data Analysis Capstone from the **DSA Program**, inv
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Comapany Background](#company-background)
-3. [Dataset and Tools](dataset--tools)
-4. 
-5. 
+3. [Dataset & Tools](dataset--tools)
+4. [Key Insights, Analysis & Visual Evidence](key-insights-analysis--visual-evidence)
+5. [Visual Evidence](visual-evidence)
+6. 
 
 --- 
 
@@ -27,7 +28,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 ---
 
-## Dataset and Tools
+## Dataset & Tools
 
 **Dataset**
 - **Source**: Excel file provided via DSA Capstone Project Files
@@ -36,140 +37,21 @@ All geographic names are representative and do not correspond to real branch loc
 
 **Tools Used**
 - **SQL Server** [Download Here](https://learn.microsoft.com/en-us/ssms/install/install)
-
   – For data querying and insight extraction
     
 - **Microsoft Excel** [Download Here](https://microsoft.com)
-
   – For preliminary data inspection, exports and visualization.
     
 - **GitHub** [Download Here](https://github.com)
-  
   – For documentation and portfolio hosting
 
 ---
 
-### Case Scenario I – Sales & Shipping Insights
-
-### 1. Product Category with the Highest Sales  
- *TECHNOLOGY* – Total sale: *89061.050*
-
-### 2. Top 3 and Bottom 3 Regions by Sales  
-Top 3:
-|Region| Sales|
-|-------|------|
-|Atlantic|  89061.050|
-|Quebec|  45923.760|
-|Prarie|  41343.210|
-
-Bottom 3:  
-|Region| Sales|
-|-------|------|
-|West | 2.240|
-|West | 3.200|
-| Yukon | 3.230|
-
-### 3. Total Sales of Appliances in Ontario  
- *202346.840*
-
-### 4. Recommendation to Increase Revenue from Bottom 10 Customers 
-
-*Bottom 10 Customers and the revenue generated*
-|Customer_Name| Sales|
-|--------------|-----|
-|Ricardo Emerson |2.240|
-| Ken Dana |3.200|
-| Benjamin Patterson |	3.230|
-| Adam Hart |	3.410|
-| Andy Reiter |	3.420|
-| Maria Bertelson |3.630|
-| Katrina Bavinger |	3.770|
-|Adam Hart |	3.850|
-| Jeremy Farry | 3.960|
-| Don Weiss |	4.940|
+### Key Insights
   
  *To increase revenue from the bottom 10 customers, I recommend implementing targeted promotions based on their previous purchase history and offering personalized discounts to re-engage them. Additionally, bundling low-interest items with popular products can increase order value. It's also important to collect feedback from these customers to understand pain points that might be limiting their spending.*
 
-### 5. Shipping Method with the Highest Cost  
- *Delivery Truck* – Total cost: *164.730*
-
----
-
-### Case Scenario II – Customer Value & Profitability
-
-### 6. Most Valuable Customers and What They Buy  
-|S/N|	Customer_Name| Product_Category|	Product_Sub_Category|	Sales|
-|--|-------------|----------------|---------------------|-------|
-|1| Emily Phan|	Technology|	Office Machines|	89061.050|
-|2	|Jasper Cacioppo|	Technology|	Office Machines|	45923.760|
-|3|	Craig Carreira|	Technology|	Office Machines|	41343.210|
-|4|	Dennis Kane|	Technology|	Copiers and Fax|	33367.850|
-|5	|Karen Carlisle|	Technology|	Copiers and Fax|	29884.600|
-
-### 7. Small Business Customer with the Highest Sales  
- |	Customer_Name|Customer_Segment|Sales|
- |---------------|-----------------|-----|
- |Dennis Kane| Small Business|33367.850|
-
-### 8. Corporate Customer with the Most Orders  
-|	Customer_Name|Customer_Segment|Order_Quantity|
- |---------------|-----------------|-----|
- |Sonia Cooley| Corporate|50|
-
-### 9. Most Profitable Consumer Customer  
-|	Customer_Name|Profit|
- |---------------|-----|
- |Emily Phan| 27220.690|
-
-### 10. Customers Who Returned Items and Their Segment   
-While the dataset does not explicitly track returned items, I used negative profit values as a proxy to identify customers likely associated with returns or loss-making orders.
-
-A total of 308 customers recorded negative profit, which could indicate returns, over-discounts, or shipping-related losses. These customers were found across all four segments—Home Office (70), Consumer (60), Corporate (114), and Small Business (64) —with a noticeable concentration in the Corporate segment with a total of 114 returns. 
-
-| **Customer_Name** | **Customer_Segment** | **Profit** |
-| ------------------ | --------------------- | ---------- |
-| Jamie Frazer       | Small Business        | -473.720   |
-| Benjamin Patterson | Corporate             | -1964.760  |
-| Sylvia Foulston    | Home Office           | -1302.760  |
-| Anemone Ratner     | Small Business        | -57.200    |
-| Troy Staebel       | Small Business        | -916.200   |
-| Bryan Davis        | Corporate             | -328.180   |
-| Maribeth Yedwab    | Home Office           | -1109.550  |
-| Joni Sundaresam    | Home Office           | -146.620   |
-| Scot Coram         | Corporate             | -951.780   |
-| Max Engle          | Corporate             | -1668.500  |
-| Alan Haines        | Home Office           | -1401.170  |
-| Neoma Murray       | Small Business        | -697.180   |
-| Sarah Jordon       | Consumer              | -798.310   |
-| Brad Eason         | Small Business        | -473.360   |
-| Julia West         | Home Office           | -13057.200 |
-| Dennis Pardue      | Corporate             | -1207.430  |
-| Greg Guthrie       | Corporate             | -1462.990  |
-| Theone Pippenger   | Corporate             | -1400.140  |
-| Fred Harton        | Home Office           | -71.540    |
-| Doug Bickford      | Corporate             | -666.930   |
-| Hunter Glantz      | Corporate             | -188.570   |
-| Mick Hernandez     | Home Office           | -347.070   |
-| Quincy Jones       | Corporate             | -82.080    |
-| Joe Elijah         | Home Office           | -324.020   |
-| Irene Maddox       | Consumer              | -6240.160  |
-
-_The rest of the table is in an excel sheet uploaded to this repository_ [Click Here](Negative_Profit_Customers.csv)
-
-
-### 11. Shipping Cost Appropriateness Based on Order Priority  
- | Ship_Mode          | Order_Priority | Num_Orders | Avg_Shipping Cost |
-| ------------------ | -------------- | ------ | ------------------ |
-| **Delivery Truck** | Critical       | 228    | 47.30             |
-| **Delivery Truck** | High           | 248    | 45.19             |
-| **Delivery Truck** | Low            | 250    | 44.53             |
-| **Delivery Truck** | Medium         | 205    | 46.15             |
-| **Delivery Truck** | Not Specified  | 215    | 43.67             |
-| **Express Air**    | Critical       | 200    | 8.71              |
-| **Express Air**    | High           | 212    | 6.86              |
-| **Express Air**    | Low            | 190    | 8.17              |
-| **Express Air**    | Medium         | 201    | 8.13              |
-| **Express Air**    | Not Specified  | 180    | 8.17              |
+Shipping
 
 After analyzing the shipping cost data across order priorities, it was observed that both Delivery Truck and Express Air were used for all priority levels, including Critical and Low. This reflects a lack of alignment between shipping method and urgency.
 
@@ -180,42 +62,14 @@ Based on this, two key issues emerge:
 - There may be inconsistencies in how shipping costs were recorded.
 - KMS may not be strategically assigning shipping methods based on order priority.
 
----
 
-### Data Analysis
-### Some SQL Queries Used
-1. Product category that had the highest sales
-``` SQL
-SELECT TOP 1 product_category, sales
-FROM [KMS Order Table]
-ORDER BY Sales DESC
-
-```
-2. Corporate Customer with the most orders
-``` SQL
-Select top 1 Customer_Name, customer_segment, Order_Quantity
-from [KMS Order Table]
-where Customer_Segment = 'Corporate'
-order by Order_Quantity desc
-
-```
-3. Total Sales of Appliances in Ontario
-``` SQL
-Select Province, product_sub_category, sum(sales) as REVENUE
-FROM [KMS Order Table]
-Where Province = 'Ontario' and product_sub_category = 'Appliances'
-group by Province, product_sub_category
-
-```
-
-
-### Analysis and Visual Evidence
+### key Insights, Analysis and Visual Evidence
 ---
 ### Q1. Which product category had the highest sales?
 
 **SQL File:** [View SQL Script](sql/01_sales_by_category.sql)
 
-**Insight:** "Our revenue is heavily anchored in Technology, indicating that high-unit-value electronics are the primary engine of our growth."
+**Insight:** "Our revenue is heavily anchored in Technology with a total sales of **$5,984,248.50**, indicating that high-unit-value electronics are the primary engine of our growth."
 
 ---
 ### Q2. What are the Top 3 and Bottom 3 regions by sales?
