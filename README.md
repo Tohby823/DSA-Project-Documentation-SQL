@@ -293,9 +293,10 @@ group by Province, product_sub_category
 
 ### Visual Images
 
-![Dashboard 1](dashboard_01.png)
+![Dashboard 1]<img width="3300" height="1981" alt="dashboard_01 png" src="https://github.com/user-attachments/assets/ee1120b4-5c7e-43a5-bad6-30b64d8d7cc6" />
 
-![Dashboard 2](dashboard_02.png)
+![Dashboard 2]<img width="3812" height="2637" alt="dashboard_02 png" src="https://github.com/user-attachments/assets/3afede79-a71a-4286-92dd-45f02046602f" />
+
 
 
 ### Results/Findings
