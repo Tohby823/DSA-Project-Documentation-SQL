@@ -129,7 +129,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/10_returns_analysis.sql)
 
-**Insight:** "The Consumer segment accounts for a disproportionate 42% of returns, suggesting a clear need for better online product descriptions to reduce 'buyer's remorse' costs."
+**Insight:** The Consumer segment accounts for a disproportionate 42% of returns, suggesting a clear need for better online product descriptions to reduce 'buyer's remorse' costs.
 
 ---
 
@@ -137,7 +137,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/11_shipping_priority_analysis.sql)
 
-**Insight:** "We have a significant 'urgency gap' where low-priority orders are frequently shipped via Express Air, indicating that our logistics choices aren't currently aligned with customer needs."
+**Insight:** There is a clear mismatch in shipping priorities: low-priority orders are often sent by Express Air, while high-priority orders are frequently delivered by truck. This suggests that our logistics decisions are not fully aligned with customer needs and may not be optimized for shipping costs.
 
 ---
 
@@ -156,7 +156,7 @@ Dashboard 2 <img width="3812" height="2637" alt="dashboard_02 png" src="https://
 
 ---
 
-## Recomendations
+## Recommendations
 - Focus marketing and inventory on Technology products, especially Office Machines, as they drive the highest sales.
 - Target underperforming regions like West and Yukon with localized promotions and logistics improvements.
 - Re-engage low-spending customers through personalized offers, bundling, and feedback collection.
