@@ -12,8 +12,7 @@ This project is part of the Data Analysis Capstone from the **DSA Program**, inv
 3. [Dataset and Tools](#dataset-and-tools)
 4. [Key Insights and Analysis](#key-insights-and-analysis)
 5. [Visual Evidence](#visual-evidence)
-6. [Limitations](#limitations)
-7. [Recommendations](#recommendations)
+6. [Limitations and Recommendations](#limitations-and-recommendations)
 
 --- 
 
@@ -79,7 +78,13 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/04_bottom10_analysis.sql)
 
-**Insight:** Bottom-tier customers show low purchase frequency and order value, suggesting opportunities for targeted promotions and upselling.
+**Insight:** Our analysis of the bottom 10 customers, including individuals like Eric Murdock and Nicole Fjeld, shows that these accounts are not only low-revenue but often unprofitable. This is largely due to the high shipping costs of small, low-value orders (e.g., paper, pens, and rubber bands), which frequently exceed the profit from the sale.
+
+1. **Implement a Minimum Order Value (MOV)**: Shipping costs for small orders reduce or eliminate profit, so requiring a minimum spend (e.g., $150) to qualify for free shipping encourages customers to consolidate orders. Fewer shipments mean lower shipping costs and healthier profit margins per transaction.
+
+2. **Drive Category Migration (Upselling)**: Many of these customers primarily purchase from low-value categories like Consumables. Targeted marketing can introduce higher-value categories such as Technology or Office Furniture, shifting purchases from small items to higher-value products. This increases the customer’s contribution to revenue and helps move them from “convenience shoppers” to strategic buyers.
+
+3. **Review Tiered Discounting**: Some low-revenue customers may currently receive the same discounts as high-volume, high-value clients. Restructuring loyalty programs so deeper discounts are available only after customers reach a specified annual spending threshold protects margins on smaller accounts while continuing to reward loyal, high-value customers.
 
 ---
 
@@ -150,20 +155,22 @@ Dashboard 1
 Dashboard 2 <img width="3812" height="2637" alt="dashboard_02" src="https://github.com/user-attachments/assets/ab3cb132-8c9a-427b-a981-5ea103a070d0" />
 
 ---
-
-## Limitations
-- The dataset only covered transactions from 2009 to 2012. More recent data could provide better relevance for current business decisions.
+## Limitations and Recommendations
+### Limitations
+- A key limitation of this analysis is data inconsistency in the order records, where two customers (Julia Barnett and Julia West) were assigned the same order ID (23488) despite having different purchase details and shipping dates. This made it difficult to accurately track returned items, as it was unclear whether one or both customers associated with the duplicated order ID made a return. As a result, the total number of returned items differed slightly from the original dataset.
+- The dataset spans only from 2009 to 2012, which limits the analysis to historical trends and may not fully reflect current sales, customer behavior, or shipping patterns. Decisions based solely on this data may not be representative of current market conditions.
 - The data did not include customer satisfaction ratings or reviews, which could have enriched customer segmentation and value analysis.
 - The shipping method efficiency was analyzed based on order priority and cost, but without actual delivery time or customer satisfaction data.
 
----
-
-## Recommendations
-- Focus marketing and inventory on Technology products, especially Office Machines, as they drive the highest sales.
-- Target underperforming regions like West and Yukon with localized promotions and logistics improvements.
+### Recommendations
+- Align shipping methods with order priority to reduce costs and improve customer satisfaction. For example, use faster methods only for high-priority orders and standard delivery for lower-priority orders.
+- Focus marketing and retention efforts on the most profitable and loyal customers, like Emily Phan and Roy Skaria, through personalized offers or loyalty programs.
+- Invest more resources in top-performing regions like West, Ontario, and Prairie, while exploring strategies to grow sales in lower-performing regions like Nunavut, Northwest Territories, and Yukon.
+- Investigate products with high return rates, especially across specific customer segments, and implement measures such as better product descriptions, packaging, or quality checks to reduce returns.
+- Given that Technology drives the highest sales, prioritize inventory management, marketing, and promotions in this category to maximize revenue, while also monitoring emerging categories for growth potential.
 - Re-engage low-spending customers through personalized offers, bundling, and feedback collection.
-- Audit Express Express Delivery and Delivery Truck usage for low-priority orders and High-priority orders; as they are often misaligned with urgency.
-- Investigate negative profit customers, especially in Corporate segment, to address possible returns, excessive discounts, or data errors.
+- Ensure unique order IDs for each transaction and clean customer records to prevent discrepancies, which will improve the accuracy of future analyses.
+- Investigate negative profit customers, to address possible returns, excessive discounts, or data errors.
   
 ### References 
 **Dataset Source:**
