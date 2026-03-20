@@ -171,7 +171,3 @@ Dashboard 2 <img width="3812" height="2637" alt="dashboard_02" src="https://gith
 - Re-engage low-spending customers through personalized offers, bundling, and feedback collection.
 - Ensure unique order IDs for each transaction and clean customer records to prevent discrepancies, which will improve the accuracy of future analyses.
 - Investigate negative profit customers, to address possible returns, excessive discounts, or data errors.
-  
-### References 
-**Dataset Source:**
-Kultra Mega Stores Case Study, obtained from the Learning Management System (LMS) of the DSA Data Analysis Program, under the Capstone Project Files.
