@@ -9,7 +9,7 @@ This project is part of the Data Analysis Capstone from the **DSA Program**, inv
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Comapany Background](#company-background)
-3. [Dataset and Tools](dataset-and-tools)
+3. [Dataset and Tools](dataset--tools)
 4. 
 5. 
 
