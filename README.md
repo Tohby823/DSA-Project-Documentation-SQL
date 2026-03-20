@@ -27,7 +27,7 @@ All geographic names are representative and do not correspond to real branch loc
 
 ---
 
-## Dataset & Tools
+## Dataset and Tools
 
 **Dataset**
 - **Source**: Excel file provided via DSA Capstone Project Files
