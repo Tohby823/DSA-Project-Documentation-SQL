@@ -3,12 +3,14 @@
 
 -- TOP 3 Regions by Sales
 SELECT 
-  TOP 3 Region, sales
+  TOP 3 Region, sum(sales) as Total_Sales
 FROM [KMS Order Table]
-ORDER BY Sales DESC
+GROUP BY Region
+ORDER BY Total_sales DESC
 
 -- BOTTOM 3 Regions by Sales
 SELECT 
-  TOP 3 Region, sales
+  TOP 3 Region, sum(sales) as Total_Sales
 FROM [KMS Order Table]
-ORDER BY Sales ASC
+GROUP BY Region  
+ORDER BY Total_sales ASC
