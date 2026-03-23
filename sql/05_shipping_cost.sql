@@ -1,7 +1,7 @@
 -- Question 5
 -- KMS incurred the most shipping cost using which shipping method?
 
-SELECT 
-  TOP 1 Ship_Mode, Shipping_Cost
+SELECT Ship_Mode, SUM(Shipping_Cost) as Total_Shipping_Cost
 FROM [KMS Order Table]
-ORDER BY Shipping_Cost DESC
+GROUP BY Ship_Mode
+ORDER BY Total_Shipping_Cost DESC
