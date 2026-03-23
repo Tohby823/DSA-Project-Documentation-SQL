@@ -95,8 +95,6 @@ All geographic names are representative and do not correspond to real branch loc
 
 **SQL File:** [View SQL Script](sql/05_shipping_cost_analysis.sql)
 
-![Shipping Costs](images/05_shipping_costs.png)
-
 **Insight:** Delivery Truck was the most expensive shipping method, accounting for a total cost of $51,971.94, indicating it may be a key driver of overall logistics expenses.
 
 ---
