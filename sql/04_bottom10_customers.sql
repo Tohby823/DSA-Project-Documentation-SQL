@@ -1,7 +1,9 @@
 -- Question 4
 -- Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers 
 
-SELECT 
-  TOP 10 Customer_Name,Region,Province,product_category,product_sub_category,unit_price,ship_mode,shipping_cost,discount,profit,sales
+SELECT TOP 10 Customer_Name,
+    sum(profit) AS Total_Profit,sum(sales) AS Total_Sales,
+    sum (Order_Quantity) AS Total_No_of_Orders
 FROM [KMS Order Table]
-ORDER BY Sales ASC
+GROUP by Customer_Name
+ORDER BY Total_Sales ASC
