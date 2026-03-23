@@ -1,10 +1,7 @@
 -- Question 10
 -- Which customer returned items, and what segment do they belong to?
 
-SELECT 
-  Customer_Name, 
-  Customer_Segment, 
-  SUM(Profit) AS Total_Profit
-FROM [KMS Order Table]
-GROUP BY Customer_Name, Customer_Segment
-HAVING SUM(Profit) < 0
+Select distinct o.Order_ID,k.Customer_Name, k.Customer_Segment,o.[Status]
+from Order_Status o
+join [KMS Order Table] k
+on k.Order_ID = o.Order_ID
